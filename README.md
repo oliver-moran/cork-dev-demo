@@ -1,4 +1,4 @@
-cork-dev-demo
-=============
+CorkDev Demo
+============
 
-A PhoneGap Build demo app for CorkDev
+A basic way-point app to demonsrate PhoneGap Build for CorkDev.

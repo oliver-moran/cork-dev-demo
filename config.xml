@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>CorkDev Demo</name>
+
+    <description>
+        An example application developed for CorkDev presentation on PhoneGap.
+    </description>
+
+    <author href="https://github.com/oliver-moran/cork-dev-demo" email="omoran@digisoft.tv">
+        Oliver Moran
+    </author>
+    
+    <!-- phonegap plugins we are going to use -->
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+
+    <!-- prefernces ... daw! -->
+    <preference name="orientation" value="portrait" />
+    <preference name="phonegap-version" value="3.1.0" />
+    
+    <!-- allow access to all domains -->
+    <access origin="*" />
+    
+    <!-- default icon and splash screen -->
+    <gap:splash src="splash.png" />
+    <icon src="icon.png" />
+
+</widget>
